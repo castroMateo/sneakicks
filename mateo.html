@@ -11,6 +11,13 @@
       margin: 0;
       background: #f4f4f4;
     }
+    .promo-banner {
+      background: #ffcc00;
+      color: #111;
+      padding: 0.75em;
+      text-align: center;
+      font-weight: bold;
+    }
     header {
       background: #111;
       color: white;
@@ -64,6 +71,9 @@
       border-radius: 5px;
       cursor: pointer;
     }
+    .card button:hover {
+      background: #218838;
+    }
     footer {
       text-align: center;
       padding: 1em;
@@ -73,6 +83,10 @@
   </style>
 </head>
 <body>
+
+  <div class="promo-banner">
+    🎉 Big Summer Sale Coming Soon! Stay Tuned for Special Offers! 🎉
+  </div>
 
   <header>
     <h1>Sneakicks Shoe Store</h1>
@@ -87,33 +101,32 @@
 
   <div class="container">
     <div class="card" id="nike">
-      <img src=imagenes/nike.jpg alt="Nike Air">
+      <img src="imagenes/nike.jpg" alt="Nike Air">
       <h3>Nike Air Max</h3>
       <p>$120</p>
-      <button>Buy Now</button>
+      <a href="under-construction.html"><button>Buy Now</button></a>
     </div>
 
     <div class="card" id="adidas">
-      <img src=imagenes/adidas.jpg alt="Adidas Ultra">
+      <img src="imagenes/adidas.jpg" alt="Adidas Ultra">
       <h3>Adidas Ultraboost</h3>
       <p>$130</p>
-      <button>Buy Now</button>
+      <a href="under-construction.html"><button>Buy Now</button></a>
     </div>
 
     <div class="card" id="puma">
-      <img src=imagenes/puma.jpg alt="Puma Runner">
+      <img src="imagenes/puma.jpg" alt="Puma Runner">
       <h3>Puma Runner</h3>
       <p>$90</p>
-      <button>Buy Now</button>
+      <a href="under-construction.html"><button>Buy Now</button></a>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 SneakicksShoe Store | Designed by Mateo for learning Google Analytics
+    &copy; 2025 Sneakicks Shoe Store | Designed by Mateo for learning Google Analytics
   </footer>
 
   <!-- Google Analytics placeholder -->
-  <!-- Replace 'G-XXXXXXXXXX' with your actual measurement ID -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
